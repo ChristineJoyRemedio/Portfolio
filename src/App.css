@@ -1,0 +1,283 @@
+.header-color{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid{
+  background: url("https://hdbackgroundspot.com//storage/upload/black-abstract-background/black-abstract-background-96.jpg");
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.avatar-img{
+  height: 400px;
+  padding-top: 6em;
+ -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:
+  transform .8s ease-in-out;
+}
+
+.avatar-img{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 900;
+}
+#f1_card {
+  width: 85%;
+  height: 30%;
+  transform-style: preserve-3d;
+  transition: all 2s linear;
+
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(210deg);
+
+
+}
+.face {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing:inherit;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  box-shadow: -5px 5px 50px #3887d3;
+  margin-top: 21%;
+  margin-right: 30%;
+
+}
+
+
+.banner-text{
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 140px;
+  padding-bottom: 1px;
+}
+
+.banner-text h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Handlee', cursive;
+  letter-spacing: 3px;
+
+}
+
+.banner-text hr{
+  border-top: 5px solid white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links{
+  display:flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid{
+  display: flex;
+}
+
+.contact-body{
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid h2{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: 'News Cycle', sans-serif;
+  letter-spacing: 2px;
+}
+.contact-grid p{
+  font-size: 20px;
+  color: grey;
+  font-family: 'Oxygen', sans-serif;
+  margin: auto;
+  width: 75%;
+  padding-top: 1em;
+}
+.contact-img{
+  height: 250px;
+  padding-top: 1em;
+  padding-bottom: 5px;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 45px;
+  padding-right: .5em;
+}
+
+.contact-list{
+  margin: auto;
+  width: 75%;
+  padding-left: 2.5em;
+  padding-top: 2em;
+}
+
+.resume-right-col{
+  background: url("https://hdbackgroundspot.com//storage/upload/black-abstract-background/black-abstract-background-96.jpg");
+  color: white;
+  width: 100%;
+}
+.resume-right-col h3{
+  color: white;
+  padding-left: 1em;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.List ListItem{
+  color: white;
+  font-size: 12px;
+}
+
+.resume-img{
+  height: 200px;
+  padding-top: 1em;
+  padding-bottom: 5px;
+}
+
+.resume-left-col h2{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.resume-left-col h4{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  color: grey;
+  letter-spacing: 3px;
+}
+
+.resume-left-col hr{
+  border-top: 3px solid black;
+  width: 50%;
+}
+.resume-right-col hr{
+  border-top: 3px solid white;
+  width:90%;
+  margin: auto;
+}
+
+.wrapper {
+  display: block;
+  position: absolute;
+  top: 49%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.wrapper2 {
+  display: block;
+  position: absolute;
+  top: 44%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.wrapper3{
+  display: block;
+  position: absolute;
+  top: 45%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+}
+h5.effect-box:after,
+h5.effect-box:before {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  margin-top: 0px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+
+}
+
+h5.effect-box:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+h5.effect-box:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+h5.effect-box:hover:after,
+h5.effect-box:hover:before {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
